@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: discovery-server
+  pid:
+    fail-on-write-error: true
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+
+server:
+  port: 8761
