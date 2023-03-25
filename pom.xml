@@ -6,8 +6,8 @@
 	<groupId>ru.crystalmaniac</groupId>
 	<artifactId>ttbuff</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ttbuff</name>
-	<description>Table tennis leaderboard</description>
+	<packaging>pom</packaging>
+
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
@@ -17,12 +17,7 @@
 
 	<modules>
 		<module>discovery-server</module>
-		<module>api-gateway</module>
 		<module>config-server</module>
-		<module>auth-server</module>
-		<module>game-service</module>
-		<module>user-service</module>
-		<module>notification-service</module>
 	</modules>
 
 </project>
